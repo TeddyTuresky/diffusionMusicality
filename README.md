@@ -14,7 +14,7 @@ The following scripts were used to process the raw data and run statistical anal
     ├── DTI_AFQrun_mrdiff_SPM.m                         <-- fiber tracking (https://github.com/yeatmanlab/AFQ)
     ├── wholeBrainTractographyAllTractsSep.m            <-- quality checks tract reconstructions. adapted from http://yeatmanlab.github.io/AFQ/tutorials/AFQ_example
     ├── BabyBOLD_INFLongDTI_MultRegPerm_100nodes.m      <-- parametric bootstrapping
-    ├── AFQ_MultiCompCorrection.m                       <-- multiple comparison corrections from https://github.com/yeatmanlab/AFQ   
+    ├── (AFQ_MultiCompCorrection.m)                     <-- multiple comparison corrections from https://github.com/yeatmanlab/AFQ   
     
     
 Visualizations:
