@@ -16,13 +16,13 @@ numNodes = 100;
 % Specify significant nodes
 tst=zeros(1,100);
 tst(1,:)=5;
-tst(1,23:34)=2; 
+tst(1,83:86)=2; 
 
 mymap = [153/255 51/255 255/255; 1 1 1]; % first row is band, second row is tube
 
-TractProfile(15) = AFQ_TractProfileSet(TractProfile(15),'vals','Tstat',tst);... 
-    AFQ_RenderFibers(fg(15),'color',... % first color is color of fibers
-    [153/255 51/255 255/255],'tractprofile',TractProfile(15), ... 
+TractProfile(15) = AFQ_TractProfileSet(TractProfile(3),'vals','Tstat',tst);... 
+    AFQ_RenderFibers(fg(3),'color',... % first color is color of fibers
+    [153/255 51/255 255/255],'tractprofile',TractProfile(3), ... 
     'val','Tstat','radius',[0.5 3],'numfibers',500,'cmap',mymap,'crange',[0.5 5]); 
 
 axis image
