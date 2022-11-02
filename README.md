@@ -13,7 +13,7 @@ The following scripts were used to process the raw data and run statistical anal
     ├── vista_preprocessing.m                           <-- tensorfitting (https://vistalab.stanford.edu/)
     ├── DTI_AFQrun_mrdiff_SPM.m                         <-- fiber tracking (https://github.com/yeatmanlab/AFQ)
     ├── wholeBrainTractographyAllTractsSep.m            <-- quality checks tract reconstructions. adapted from http://yeatmanlab.github.io/AFQ/tutorials/AFQ_example
-    ├── dti_corr_perm_100nodes_reg.m                    <-- parametric bootstrapping (code fragments taken from https://github.com/yeatmanlab/AFQ 
+    ├── BabyBOLD_INFLongDTI_MultRegPerm_100nodes.m      <-- parametric bootstrapping
     ├── AFQ_MultiCompCorrection.m                       <-- multiple comparison corrections from https://github.com/yeatmanlab/AFQ   
     
     
@@ -21,4 +21,4 @@ Visualizations:
 
     .
     ├── vis_ind_tracts.m                                <-- generates tracts
-    ├── afq_vis_lslf.m                               <-- generates tracts with significant nodes
+    ├── afq_vis_lslf.m                                  <-- generates tracts with significant nodes
